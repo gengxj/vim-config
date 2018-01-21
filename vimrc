@@ -23,7 +23,7 @@ Plugin 'taglist.vim'
 Plugin 'winmanager'
 
 " programming
-" Bundle 'davidhalter/jedi-vim'
+Plugin 'davidhalter/jedi-vim'
 Bundle 'https://github.com/chazy/cscope_maps.git'
 Plugin 'OmniCppComplete'
 Bundle 'fugitive.vim'
@@ -271,7 +271,7 @@ let g:pymode_breakpoint = 0
 "let g:pymode_breakpoint_bind = '<leader>b'
 "启用python语法检查
 let g:pymode_lint = 1
-let g:pymode_lint_ignore = "C901"
+let g:pymode_lint_ignore = "C901, W0401"
 "修改后保存时进行检查
 let g:pymode_lint_on_write = 1
 "编辑时进行检查
